@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
+import footerLogo from '../../../public/assets/leo.png'
 const Footer = () => {
   return (
     <div>
@@ -8,7 +9,7 @@ const Footer = () => {
         <Row>
           <Col md={4}>
           <img
-                src="src/assets/leo.png"
+                src={footerLogo}
                 alt="leo Crackers Logo"
                 width="150"
                 className="d-inline-block align-top me-2"
